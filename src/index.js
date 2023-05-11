@@ -17,13 +17,32 @@ client.on('ready', (c) => {
 });
 
 client.on('messageCreate', (msg) => {
-// interacting with the user && preventing the bot from answering itself
+// interacting with th e user && preventing the bot from answering itself
     if(msg.author.bot) {   
         return;
     };
 
-    if(msg.content === 'hello') {
-        msg.reply('Hey!')
+    if (msg.content.toLocaleLowerCase() === 'hello') {
+        msg.reply('Hello!');
+
+    } else if (msg.content.toLocaleLowerCase() === 'hi') {
+        msg.reply('Hi!!');
+
+    } else if (msg.content.toLocaleLowerCase() === 'hey') {
+        msg.reply('Hey!');
+    };
+
+    if (msg.content.toLocaleLowerCase() === 'good morning') {
+        msg.reply('Good Morning!');
+
+    } else if (msg.content.toLocaleLowerCase() === 'good afternoon') {
+        msg.reply('Good Afternoon!');
+
+    } else if (msg.content.toLocaleLowerCase() === 'good evening') {
+        msg.reply('Good Evening!');
+
+    } else if (msg.content.toLocaleLowerCase() === 'good night') {
+        msg.reply('Good Night!!');
     }
 });
 
