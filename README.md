@@ -1,3 +1,6 @@
+# About the project
+This project is all about creating a simple discord bot. You can feel free to improve on it. Here's the discord documentation if you feel like improving the discord bot: https://discord.com/developers/docs/intro
+
 # How to use the discord bot?
 
 Clone this repo: git@github.com:EvanilsonP/discord-bot.git and install the dependecies by running npm install.
@@ -18,3 +21,7 @@ Step 5: Scroll down, copy the generated link/token, paste it in the browser and 
 Create a .env file in the project folder and create a variable where You can store the bot token generated in Step 5. Example: TOKEN = sd2r8D1F5. (No quotation marks)
 
 You can use 'nodemon' in the terminal to turn the bot online.
+
+### 🛠 &nbsp;technologies used: 
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
+
