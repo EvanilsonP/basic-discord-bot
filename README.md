@@ -1,6 +1,16 @@
 # About the project
 This project is all about creating a simple discord bot. You can feel free to improve on it. Here's the discord documentation if you feel like improving the discord bot: https://discord.com/developers/docs/intro
 
+# What does the bot do so far?
+
+You can send a Hi/Hello/Hey message and the Bot will answer you with one of the messages;
+
+It sends a Welcome message when you join the server;
+
+It sends you a private message when you join the server;
+
+--- The bot will be updated over time with new features ---
+
 # How to use the discord bot?
 
 Clone this repo: git@github.com:EvanilsonP/discord-bot.git and install the dependecies by running npm install.
