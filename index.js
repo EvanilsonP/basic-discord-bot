@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { Client, IntentsBitField } = require('discord.js');
+
 // intents are a set of permissions that your bot can use in order to get access to a set of events
 // client is our bot instance
 const client = new Client({
@@ -41,7 +42,6 @@ client.on('guildMemberAdd', member => {
     if(!channel) return;
     channel.send(`Welcome to the server, ${member}`);
 });
-
 
 // Sends a private message to a new member on discord
 client.on('guildMemberAdd', (member) => {
