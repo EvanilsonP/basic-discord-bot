@@ -9,8 +9,6 @@ It sends a Welcome message when you join the server;
 
 It sends you a private message when you join the server;
 
---- The bot will be updated over time with new features ---
-
 # How to use the discord bot?
 
 Clone this repo: git@github.com:EvanilsonP/discord-bot.git and install the dependecies by running npm install.
@@ -34,4 +32,6 @@ You can use 'nodemon' in the terminal to turn the bot online.
 
 ### 🛠 &nbsp;technologies used: 
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)
+
+---- It is a basic discord bot ---
 
