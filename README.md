@@ -1,4 +1,4 @@
-# About this project
+# About the project
 This project is all about creating a simple discord bot. You can feel free to improve on it. Here's the discord documentation if you feel like improving the discord bot: https://discord.com/developers/docs/intro
 
 # What does the bot do so far?
